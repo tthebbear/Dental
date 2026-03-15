@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Dark rounded background matching the tab -->
+  <rect width="100" height="100" rx="18" fill="#0A0F1E"/>
+
+  <!-- Crown base -->
+  <rect x="30" y="26" width="40" height="8" rx="2" fill="#F59E0B"/>
+  <!-- Crown left point -->
+  <polygon points="30,34 30,18 38,26" fill="#F59E0B"/>
+  <!-- Crown center point -->
+  <polygon points="42,34 50,12 58,34" fill="#F59E0B"/>
+  <!-- Crown right point -->
+  <polygon points="70,34 70,18 62,26" fill="#F59E0B"/>
+  <!-- Crown jewel -->
+  <circle cx="50" cy="22" r="3" fill="#FDE68A"/>
+
+  <!-- Sparkle left -->
+  <line x1="22" y1="24" x2="17" y2="20" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="20" y1="28" x2="14" y2="28" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Sparkle right -->
+  <line x1="78" y1="24" x2="83" y2="20" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="80" y1="28" x2="86" y2="28" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Tooth body – white outline, transparent fill -->
+  <path d="M50 36 C36 36 26 44 24 55 C22 66 23 78 26 87 C28 93 31 96 35 96 C37 96 38 94 39 91 C40 88 41 86 43 84 C45 82 47 81 50 81 C53 81 55 82 57 84 C59 86 60 88 61 91 C62 94 63 96 65 96 C69 96 72 93 74 87 C77 78 78 66 76 55 C74 44 64 36 50 36Z"
+        fill="rgba(255,255,255,0.06)" stroke="white" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Tooth inner groove -->
+  <path d="M42 62 Q46 57 50 62 Q54 67 58 62"
+        stroke="rgba(255,255,255,0.4)" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Tooth highlight -->
+  <ellipse cx="40" cy="52" rx="5" ry="9" fill="white" opacity="0.15" transform="rotate(-12 40 52)"/>
+</svg>

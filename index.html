@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HEALTHY DENTI | Sonreír es la magia que hay en ti</title>
+  <meta name="description" content="HEALTHY DENTI – Clínica dental en Quito, Ecuador. Ortodoncia, Implantes, Endodoncia, Armonización Orofacial y más. Edif. Solemni, Consultorio Nº 502. Lun–Dom 08:00–20:00." />
+  <meta name="keywords" content="clinica dental quito, dentista quito, implantes dentales, ortodoncia invisalign, endodoncia, armonizacion orofacial, periodoncia" />
+  <meta property="og:title" content="HEALTHY DENTI | Sonreír es la magia que hay en ti" />
+  <meta property="og:description" content="Clínica dental premium en Quito. Todo tipo de servicios odontológicos con tecnología de vanguardia. ¡Sonríe con confianza!" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="alternate icon" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- PARTICLES -->
+  <div id="particles-container" class="particles-container"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo" id="nav-logo-link">
+        <!-- Crown + Tooth: faithful to real logo, white lines for dark bg -->
+        <div class="logo-icon">
+          <svg viewBox="0 0 100 112" fill="none" xmlns="http://www.w3.org/2000/svg" width="50" height="56">
+            <!-- Crown base rect -->
+            <rect x="28" y="26" width="44" height="9" rx="2.5" fill="#F59E0B"/>
+            <!-- Crown left spike -->
+            <polygon points="28,35 28,16 37,26" fill="#F59E0B"/>
+            <!-- Crown center spike (tallest) -->
+            <polygon points="40,35 50,8 60,35" fill="#F59E0B"/>
+            <!-- Crown right spike -->
+            <polygon points="72,35 72,16 63,26" fill="#F59E0B"/>
+            <!-- Crown jewel (center shine) -->
+            <circle cx="50" cy="19" r="3.5" fill="#FDE68A" opacity="0.95"/>
+            <!-- Crown inner bevel -->
+            <line x1="29" y1="31" x2="71" y2="31" stroke="#FDE68A" stroke-width="1" opacity="0.35"/>
+            <!-- Sparkle top-left -->
+            <line x1="20" y1="22" x2="13" y2="15" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="17" y1="28" x2="10" y2="28" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+            <!-- Sparkle top-right -->
+            <line x1="80" y1="22" x2="87" y2="15" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="83" y1="28" x2="90" y2="28" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+            <!-- Tooth body – rounded clean shape, white outline -->
+            <path d="M50 40 C35 40 23 50 21 63 C19 76 20 90 24 99 C27 107 31 112 36 112
+                     C39 112 40 109 41 106 C43 102 45 100 50 100
+                     C55 100 57 102 59 106 C60 109 61 112 64 112
+                     C69 112 73 107 76 99 C80 90 81 76 79 63
+                     C77 50 65 40 50 40Z"
+                  fill="rgba(255,255,255,0.04)"
+                  stroke="rgba(255,255,255,0.9)"
+                  stroke-width="3.2"
+                  stroke-linejoin="round"/>
+            <!-- Tooth cusp groove (center split) -->
+            <path d="M40 76 Q45 70 50 76 Q55 82 60 76"
+                  stroke="rgba(255,255,255,0.35)"
+                  stroke-width="2.2"
+                  stroke-linecap="round"
+                  fill="none"/>
+            <!-- Main highlight shine -->
+            <ellipse cx="37" cy="63" rx="5.5" ry="11"
+                     fill="white" opacity="0.14"
+                     transform="rotate(-12 37 63)"/>
+            <!-- Secondary small shine -->
+            <ellipse cx="34" cy="57" rx="2.5" ry="5"
+                     fill="white" opacity="0.20"
+                     transform="rotate(-12 34 57)"/>
+          </svg>
+        </div>
+        <!-- Logo text matching serif brand style -->
+        <div class="logo-text-wrap">
+          <span class="logo-text">HEALTHY <span class="logo-accent">DENTI</span></span>
+          <span class="logo-tagline">Sonreír es la magia que hay en ti</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#servicios" class="nav-link" id="nav-servicios">Servicios</a></li>
+        <li><a href="#nosotros" class="nav-link" id="nav-nosotros">Nosotros</a></li>
+        <li><a href="#testimonios" class="nav-link" id="nav-testimonios">Testimonios</a></li>
+        <li><a href="#equipo" class="nav-link" id="nav-equipo">Equipo</a></li>
+        <li><a href="#contacto" class="nav-link" id="nav-contacto">Contacto</a></li>
+      </ul>
+
+      <a href="https://wa.link/42kr32" target="_blank" rel="noopener" class="btn-primary btn-sm" id="nav-cta">WhatsApp</a>
+
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="#servicios" class="mobile-nav-link" id="mob-servicios">Servicios</a></li>
+        <li><a href="#nosotros" class="mobile-nav-link" id="mob-nosotros">Nosotros</a></li>
+        <li><a href="#testimonios" class="mobile-nav-link" id="mob-testimonios">Testimonios</a></li>
+        <li><a href="#equipo" class="mobile-nav-link" id="mob-equipo">Equipo</a></li>
+        <li><a href="#contacto" class="mobile-nav-link" id="mob-contacto">Contacto</a></li>
+      </ul>
+      <a href="https://wa.link/42kr32" target="_blank" rel="noopener" class="btn-primary" id="mob-cta" style="display:inline-block;margin-top:1rem;">📲 WhatsApp</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge" id="hero-badge">
+          <span class="badge-dot"></span>
+          Clínica Dental de Excelencia · Quito, Ecuador
+        </div>
+        <h1 class="hero-title" id="hero-title">
+          Bienvenidos a<br/>
+          <span class="gradient-text">Healthy Denti</span>
+        </h1>
+        <p class="hero-subtitle" id="hero-subtitle">
+          Tecnología de vanguardia · Atención personalizada · <em>Sonreír es la magia que hay en ti.</em>
+        </p>
+        <div class="hero-ctas" id="hero-ctas">
+          <a href="https://wa.link/42kr32" target="_blank" rel="noopener" class="btn-primary" id="hero-cta-primary">Reservar por WhatsApp</a>
+          <a href="#servicios" class="btn-outline" id="hero-cta-secondary">Ver Servicios</a>
+        </div>
+        <div class="hero-stats" id="hero-stats">
+          <div class="stat-item">
+            <div class="stat-value"><span class="stat-number" data-target="500" id="stat-patients">0</span><span class="stat-suffix">+</span></div>
+            <span class="stat-label">Pacientes felices</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-value"><span class="stat-number" data-target="8" id="stat-services">0</span><span class="stat-suffix">+</span></div>
+            <span class="stat-label">Especialidades</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-value"><span class="stat-number" data-target="7" id="stat-days">0</span><span class="stat-suffix"> días</span></div>
+            <span class="stat-label">Atención semanal</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" id="hero-visual-wrap">
+        <img src="images/hero_visual.png" alt="HEALTHY DENTI hero visual" class="hero-img" id="hero-img"
+             onerror="this.style.display='none'; document.getElementById('hero-svg-fallback').style.display='flex'" />
+        <div class="hero-svg-fallback" id="hero-svg-fallback">
+          <div class="tooth-3d">
+            <div class="tooth-sphere">
+              <svg viewBox="0 0 200 220" fill="none" xmlns="http://www.w3.org/2000/svg" class="tooth-svg">
+                <defs>
+                  <radialGradient id="tg1" cx="35%" cy="30%" r="70%">
+                    <stop offset="0%" stop-color="#93C5FD"/>
+                    <stop offset="60%" stop-color="#3B82F6"/>
+                    <stop offset="100%" stop-color="#1D4ED8"/>
+                  </radialGradient>
+                  <filter id="glow-filter">
+                    <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+                    <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                  </filter>
+                </defs>
+                <path d="M100 10C72 10 52 28 44 50C36 72 36 96 42 118C48 140 60 168 76 182C82 188 88 192 100 192C112 192 118 188 124 182C140 168 152 140 158 118C164 96 164 72 156 50C148 28 128 10 100 10Z" fill="url(#tg1)" filter="url(#glow-filter)"/>
+                <path d="M100 10C76 10 58 24 50 42C64 38 80 36 100 36C120 36 136 38 150 42C142 24 124 10 100 10Z" fill="#93C5FD" opacity="0.5"/>
+                <ellipse cx="78" cy="52" rx="14" ry="20" fill="white" opacity="0.25" transform="rotate(-15 78 52)"/>
+                <ellipse cx="70" cy="44" rx="5" ry="8" fill="white" opacity="0.4" transform="rotate(-15 70 44)"/>
+                <path d="M84 175 Q82 185 80 195" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+                <path d="M100 185 Q100 195 100 205" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+                <path d="M116 175 Q118 185 120 195" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+              </svg>
+            </div>
+            <div class="orbit orbit-1"><div class="orbit-dot"></div></div>
+            <div class="orbit orbit-2"><div class="orbit-dot orbit-dot-2"></div></div>
+          </div>
+        </div>
+        <!-- Floating badges always visible over the hero image -->
+        <div class="floating-badge badge-top-right"><span>✅</span> Lun–Dom 08:00–20:00 · 7 días</div>
+        <div class="floating-badge badge-bottom-left"><span>🏆</span> 3+ Años de experiencia</div>
+        <div class="visual-glow"></div>
+      </div>
+    </div>
+    <div class="scroll-indicator" id="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- CREDIBILITY STRIP -->
+  <section class="credibility-strip" id="credibilidad">
+    <div class="container">
+      <p class="strip-label">Tecnología y certificaciones de primer nivel</p>
+      <div class="logos-row">
+        <div class="brand-badge" id="brand-ortodoncia">🦷 Ortodoncia</div>
+        <div class="brand-badge" id="brand-implantes">🔩 Implantes</div>
+        <div class="brand-badge" id="brand-endodoncia">💚 Endodoncia</div>
+        <div class="brand-badge" id="brand-periodoncia">🌿 Periodoncia</div>
+        <div class="brand-badge" id="brand-armonia">✨ Armonización Orofacial</div>
+        <div class="brand-badge" id="brand-cirugia">👨‍⚕️ Cirugías</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS (8 FLIP CARDS) -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">🦷 Nuestros Servicios</span>
+        <h2 class="section-title">Todo lo que tu <span class="gradient-text">sonrisa necesita</span></h2>
+        <p class="section-subtitle">Ofrecemos una gama completa de tratamientos odontológicos de vanguardia, con el más alto estándar de calidad y tecnología.</p>
+      </div>
+
+      <div class="services-grid services-grid-8">
+
+        <!-- 1 Ortodoncia -->
+        <div class="service-card-flip reveal" id="service-card-1">
+          <div class="service-card-inner">
+            <div class="service-card-front">
+              <img src="images/service_1.png" alt="Ortodoncia"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+              <div class="service-img-fallback" style="display:none"><div class="service-icon-large">🦷</div></div>
+              <div class="service-overlay">
+                <div class="service-icon-badge">🦷</div>
+                <h3 class="service-title-front">Ortodoncia</h3>
+              </div>
+            </div>
+            <div class="service-card-back glass-card">
+              <div class="back-icon">🦷</div>
+              <h3 class="service-title-back">Ortodoncia</h3>
+              <p class="service-description">Última tecnología en ortodoncia para corregir la alineación de tus dientes y mejorar tu sonrisa de manera efectiva y cómoda.</p>
+              <div class="service-features">
+                <span class="feature-tag">Invisalign</span>
+                <span class="feature-tag">Brackets</span>
+                <span class="feature-tag">Retenedores</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 Rehabilitación Oral -->
+        <div class="service-card-flip reveal" id="service-card-2">
+          <div class="service-card-inner">
+            <div class="service-card-front">
+              <img src="images/service_2.png" alt="Rehabilitación Oral"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+              <div class="service-img-fallback" style="display:none"><div class="service-icon-large">❤️</div></div>
+              <div class="service-overlay">
+                <div class="service-icon-badge">❤️</div>
+                <h3 class="service-title-front">Rehabilitación Oral</h3>
+              </div>
+            </div>
+            <div class="service-card-back glass-card">
+              <div class="back-icon">❤️</div>
+              <h3 class="service-title-back">Rehabilitación Oral</h3>
+              <p class="service-description">Restauramos la función y estética de tu boca con soluciones personalizadas para pérdida de dientes o daños en la estructura bucal.</p>
+              <div class="service-features">
+                <span class="feature-tag">Prótesis</span>
+                <span class="feature-tag">Restauración</span>
+                <span class="feature-tag">Estética</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 Implantes -->
+        <div class="service-card-flip reveal" id="service-card-3">
+          <div class="service-card-inner">
+            <div class="service-card-front">
+              <img src="images/service_3.png" alt="Implantes Dentales"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+              <div class="service-img-fallback" style="display:none"><div class="service-icon-large">🔩</div></div>
+              <div class="service-overlay">
+                <div class="service-icon-badge">🔩</div>
+                <h3 class="service-title-front">Implantes</h3>
+              </div>
+            </div>
+            <div class="service-card-back glass-card">
+              <div class="back-icon">🔩</div>
+              <h3 class="service-title-back">Implantes Dentales</h3>
+              <p class="service-description">Recupera la función y estética perdidas. Utilizamos técnicas avanzadas para reemplazar dientes perdidos de manera segura y efectiva.</p>
+              <div class="service-features">
+                <span class="feature-tag">Titanio</span>
+                <span class="feature-tag">Permanentes</span>
+                <span class="feature-tag">Natural</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 Cirugías -->
+        <div class="service-card-flip reveal" id="service-card-4">
+          <div class="service-card-inner">
+            <div class="service-card-front">
+              <img src="images/service_4.png" alt="Cirugías Dentales"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+              <div class="service-img-fallback" style="display:none"><div class="service-icon-large">👨‍⚕️</div></div>
+              <div class="service-overlay">
+                <div class="service-icon-badge">👨‍⚕️</div>
+                <h3 class="service-title-front">Cirugías</h3>
+              </div>
+            </div>
+            <div class="service-card-back glass-card">
+              <div class="back-icon">👨‍⚕️</div>
+              <h3 class="service-title-back">Cirugías Dentales</h3>
+              <p class="service-description">Desde procedimientos simples hasta intervenciones complejas, nuestro equipo de cirujanos realiza una amplia gama con habilidad y cuidado.</p>
+              <div class="service-features">
+                <span class="feature-tag">Extracciones</span>
+                <span class="feature-tag">Ma        <!-- 5 Periodoncia -->
+        <div class="service-card-flip reveal" id="service-card-5">
+          <div class="service-card-inner">
+            <div class="service-card-front">
+              <img src="images/service_5.png" alt="Periodoncia"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+              <div class="service-img-fallback" style="display:none">
+                <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" width="120" height="120">
+                  <defs>
+                    <radialGradient id="pg1" cx="50%" cy="40%" r="60%">
+                      <stop offset="0%" stop-color="#34D399"/>
+                      <stop offset="100%" stop-color="#059669"/>
+                    </radialGradient>
+                    <filter id="pg-glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+                  </defs>
+                  <!-- Gum line -->
+                  <path d="M20 130 Q60 100 100 115 Q140 130 180 110" stroke="#34D399" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+                  <!-- Teeth -->
+                  <rect x="42" y="90" width="24" height="44" rx="5" fill="white" opacity="0.12"/>
+                  <rect x="72" y="85" width="26" height="50" rx="5" fill="white" opacity="0.15"/>
+                  <rect x="104" y="88" width="24" height="46" rx="5" fill="white" opacity="0.12"/>
+                  <rect x="134" y="93" width="22" height="40" rx="5" fill="white" opacity="0.1"/>
+                  <!-- Central leaf -->
+                  <path d="M100 140 C80 120 70 90 100 60 C130 90 120 120 100 140Z" fill="url(#pg1)" opacity="0.9" filter="url(#pg-glow)"/>
+                  <path d="M100 140 L100 60" stroke="#6EE7B7" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.5"/>
+                  <!-- Small leaves -->
+                  <path d="M100 110 C88 102 82 88 100 78 C100 88 98 102 100 110Z" fill="#6EE7B7" opacity="0.5"/>
+                  <!-- Glow dots -->
+                  <circle cx="70" cy="115" r="4" fill="#34D399" opacity="0.3"/>
+                  <circle cx="130" cy="108" r="3" fill="#34D399" opacity="0.25"/>
+                  <!-- Root lines -->
+                  <line x1="54" y1="134" x2="57" y2="155" stroke="white" stroke-width="1.5" opacity="0.2"/>
+                  <line x1="85" y1="135" x2="85" y2="160" stroke="white" stroke-width="1.5" opacity="0.2"/>
+                  <line x1="116" y1="134" x2="114" y2="158" stroke="white" stroke-width="1.5" opacity="0.2"/>
+                </svg>
+              </div>
+              <div class="service-overlay">
+                <div class="service-icon-badge">🌿</div>
+                <h3 class="service-title-front">Periodoncia</h3>
+              </div>
+            </div>
+            <div class="service-card-back glass-card">
+              <div class="back-icon">🌿</div>
+              <h3 class="service-title-back">Periodoncia</h3>
+              <p class="service-description">Cuida la salud de tus encías. Nuestros especialistas tratan enfermedades de las encías y proporcionan terapias para mantener tu sonrisa vibrante.</p>
+              <div class="service-features">
+                <span class="feature-tag">Encías Sanas</span>
+                <span class="feature-tag">Tratamiento</span>
+                <span class="feature-tag">Prevención</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 Operatorio Dental -->
+        <div class="service-card-flip reveal" id="service-card-6">
+          <div class="service-card-inner">
+            <div class="service-card-front">
+              <img src="images/service_6.png" alt="Operatorio Dental"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+              <div class="service-img-fallback" style="display:none">
+                <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" width="120" height="120">
+                  <defs>
+                    <radialGradient id="op1" cx="50%" cy="35%" r="65%">
+                      <stop offset="0%" stop-color="#93C5FD"/>
+                      <stop offset="100%" stop-color="#1E40AF"/>
+                    </radialGradient>
+                    <filter id="op-glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+                  </defs>
+                  <!-- Tooth body -->
+                  <path d="M100 40 C78 40 62 55 58 72 C54 89 55 108 60 122 C65 136 72 150 80 156 C84 159 87 160 100 160 C113 160 116 159 120 156 C128 150 135 136 140 122 C145 108 146 89 142 72 C138 55 122 40 100 40Z" fill="url(#op1)" opacity="0.85" filter="url(#op-glow)"/>
+                  <!-- Tooth groove -->
+                  <path d="M88 90 Q100 80 112 90" stroke="white" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.4"/>
+                  <!-- Highlight -->
+                  <ellipse cx="84" cy="65" rx="8" ry="14" fill="white" opacity="0.2" transform="rotate(-15 84 65)"/>
+                  <!-- Drill tool -->
+                  <line x1="148" y1="30" x2="108" y2="80" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+                  <circle cx="148" cy="30" r="6" fill="#F59E0B" opacity="0.8"/>
+                  <line x1="107" y1="80" x2="100" y2="92" stroke="#FDE68A" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+                  <!-- Blue UV glow spark -->
+                  <circle cx="108" cy="82" r="10" fill="#3B82F6" opacity="0.25"/>
+                  <circle cx="108" cy="82" r="5" fill="#60A5FA" opacity="0.5"/>
+                  <!-- Sparkles -->
+                  <circle cx="130" cy="55" r="2" fill="#FDE68A" opacity="0.7"/>
+                  <circle cx="155" cy="48" r="1.5" fill="#FDE68A" opacity="0.5"/>
+                  <circle cx="142" cy="65" r="1" fill="white" opacity="0.6"/>
+                  <!-- Root lines -->
+                  <line x1="88" y1="158" x2="86" y2="175" stroke="#60A5FA" stroke-width="1.5" opacity="0.3"/>
+                  <line x1="100" y1="160" x2="100" y2="178" stroke="#60A5FA" stroke-width="1.5" opacity="0.3"/>
+                  <line x1="112" y1="158" x2="114" y2="175" stroke="#60A5FA" stroke-width="1.5" opacity="0.3"/>
+                </svg>
+              </div>
+              <div class="service-overlay">
+                <div class="service-icon-badge">🦷</div>
+                <h3 class="service-title-front">Operatorio Dental</h3>
+              </div>
+            </div>
+            <div class="service-card-back glass-card">
+              <div class="back-icon">🦷</div>
+              <h3 class="service-title-back">Operatorio Dental</h3>
+              <p class="service-description">Procedimientos de alta calidad para tratar caries, restaurar dientes dañados y mantener tu salud bucal en óptimas condiciones.</p>
+              <div class="service-features">
+                <span class="feature-tag">Caries</span>
+                <span class="feature-tag">Restauraciones</span>
+                <span class="feature-tag">Sellantes</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7 Endodoncia -->
+        <div class="service-card-flip reveal" id="service-card-7">
+          <div class="service-card-inner">
+            <div class="service-card-front">
+              <img src="images/service_7.png" alt="Endodoncia"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+              <div class="service-img-fallback" style="display:none">
+                <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" width="120" height="120">
+                  <defs>
+                    <radialGradient id="en1" cx="50%" cy="35%" r="60%">
+                      <stop offset="0%" stop-color="#C4B5FD"/>
+                      <stop offset="100%" stop-color="#4C1D95"/>
+                    </radialGradient>
+                    <linearGradient id="root-grad" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#A78BFA"/>
+                      <stop offset="100%" stop-color="#4C1D95"/>
+                    </linearGradient>
+                    <filter id="en-glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+                  </defs>
+                  <!-- Tooth crown outline -->
+                  <path d="M100 35 C78 35 62 50 58 67C54 84 56 100 62 115 C55 115 52 120 55 128 L72 128 C76 142 82 158 90 168 C93 172 97 173 100 173 C103 173 107 172 110 168 C118 158 124 142 128 128 L145 128 C148 120 145 115 138 115 C144 100 146 84 142 67 C138 50 122 35 100 35Z" fill="url(#en1)" opacity="0.8" filter="url(#en-glow)"/>
+                  <!-- Root canal lines -->
+                  <path d="M100 115 L92 170" stroke="url(#root-grad)" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+                  <path d="M100 115 L100 172" stroke="url(#root-grad)" stroke-width="3.5" stroke-linecap="round" opacity="1"/>
+                  <path d="M100 115 L108 170" stroke="url(#root-grad)" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+                  <!-- Nerve/pulp glow -->
+                  <ellipse cx="100" cy="90" rx="18" ry="22" fill="#7C3AED" opacity="0.4"/>
+                  <ellipse cx="100" cy="88" rx="8" ry="10" fill="#C4B5FD" opacity="0.6"/>
+                  <!-- File tool -->
+                  <path d="M138 38 L106 95" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+                  <rect x="133" y="30" width="10" height="14" rx="3" fill="#F59E0B" opacity="0.8" transform="rotate(45 138 37)"/>
+                  <!-- Highlight -->
+                  <ellipse cx="83" cy="58" rx="6" ry="10" fill="white" opacity="0.15" transform="rotate(-15 83 58)"/>
+                  <!-- Glow dots -->
+                  <circle cx="92" cy="165" r="3" fill="#A78BFA" opacity="0.5" filter="url(#en-glow)"/>
+                  <circle cx="100" cy="170" r="3.5" fill="#C4B5FD" opacity="0.6" filter="url(#en-glow)"/>
+                  <circle cx="108" cy="165" r="3" fill="#A78BFA" opacity="0.5" filter="url(#en-glow)"/>
+                </svg>
+              </div>
+              <div class="service-overlay">
+                <div class="service-icon-badge">💚</div>
+                <h3 class="service-title-front">Endodoncia</h3>
+              </div>
+            </div>
+            <div class="service-card-back glass-card">
+              <div class="back-icon">💚</div>
+              <h3 class="service-title-back">Endodoncia</h3>
+              <p class="service-description">Nuestros endodoncistas salvan dientes mediante tratamientos de conducto radicular avanzados, aliviando el dolor y preservando tus dientes naturales.</p>
+              <div class="service-features">
+                <span class="feature-tag">Conducto</span>
+                <span class="feature-tag">Sin Dolor</span>
+                <span class="feature-tag">Precisión</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8 Armonización Orofacial -->
+        <div class="service-card-flip reveal" id="service-card-8">
+          <div class="service-card-inner">
+            <div class="service-card-front">
+              <img src="images/service_8.png" alt="Armonización Orofacial"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+              <div class="service-img-fallback" style="display:none">
+                <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" width="120" height="120">
+                  <defs>
+                    <radialGradient id="ao1" cx="50%" cy="40%" r="60%">
+                      <stop offset="0%" stop-color="#FCA5A5"/>
+                      <stop offset="50%" stop-color="#F472B6"/>
+                      <stop offset="100%" stop-color="#9333EA"/>
+                    </radialGradient>
+                    <filter id="ao-glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+                  </defs>
+                  <!-- Face oval -->
+                  <ellipse cx="100" cy="105" rx="52" ry="68" fill="none" stroke="url(#ao1)" stroke-width="2" opacity="0.6"/>
+                  <!-- Jaw line -->
+                  <path d="M68 140 Q100 168 132 140" fill="none" stroke="#F472B6" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+                  <!-- Lips -->
+                  <path d="M82 140 Q90 148 100 145 Q110 148 118 140 Q110 135 100 138 Q90 135 82 140Z" fill="#F472B6" opacity="0.5"/>
+                  <!-- Nose -->
+                  <path d="M94 118 Q100 128 106 118" stroke="#FCA5A5" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+                  <!-- Eyes -->
+                  <ellipse cx="82" cy="100" rx="8" ry="5" fill="none" stroke="#E879F9" stroke-width="1.5" opacity="0.7"/>
+                  <ellipse cx="118" cy="100" rx="8" ry="5" fill="none" stroke="#E879F9" stroke-width="1.5" opacity="0.7"/>
+                  <circle cx="82" cy="100" r="2.5" fill="#E879F9" opacity="0.6"/>
+                  <circle cx="118" cy="100" r="2.5" fill="#E879F9" opacity="0.6"/>
+                  <!-- Golden ratio / facial harmony lines -->
+                  <line x1="100" y1="37" x2="100" y2="173" stroke="#F9A8D4" stroke-width="0.8" stroke-dasharray="4 4" opacity="0.3"/>
+                  <line x1="48" y1="100" x2="152" y2="100" stroke="#F9A8D4" stroke-width="0.8" stroke-dasharray="4 4" opacity="0.3"/>
+                  <!-- Sparkles -->
+                  <path d="M158 55 L160 48 L162 55 L169 57 L162 59 L160 66 L158 59 L151 57Z" fill="#FDE68A" opacity="0.85" filter="url(#ao-glow)"/>
+                  <path d="M38 75 L39.5 70 L41 75 L46 76.5 L41 78 L39.5 83 L38 78 L33 76.5Z" fill="#E879F9" opacity="0.7" filter="url(#ao-glow)"/>
+                  <circle cx="148" cy="88" r="3" fill="#F472B6" opacity="0.5"/>
+                  <circle cx="52" cy="120" r="2" fill="#FCA5A5" opacity="0.5"/>
+                  <!-- Cheek contour glow -->
+                  <ellipse cx="72" cy="120" rx="12" ry="8" fill="#F472B6" opacity="0.1"/>
+                  <ellipse cx="128" cy="120" rx="12" ry="8" fill="#F472B6" opacity="0.1"/>
+                </svg>
+              </div>
+              <div class="service-overlay">
+                <div class="service-icon-badge">✨</div>
+                <h3 class="service-title-front">Armonización Orofacial</h3>
+              </div>
+            </div>
+            <div class="service-card-back glass-card">
+              <div class="back-icon">✨</div>
+              <h3 class="service-title-back">Armonización Orofacial</h3>
+              <p class="service-description">Destaca tu belleza natural con nuestros servicios de armonización orofacial, diseñados para realzar tus rasgos faciales de manera sutil y elegante.</p>
+              <div class="service-features">
+                <span class="feature-tag">Bioestética</span>
+                <span class="feature-tag">Facial</span>
+                <span class="feature-tag">Premium</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /services-grid -->
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="section section-alt" id="nosotros">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-img-wrapper">
+            <img src="images/about_image.png" alt="Clínica HEALTHY DENTI"
+                 onerror="this.style.display='none'; document.getElementById('about-svg').style.display='flex'" />
+            <div class="about-svg-fallback" id="about-svg" style="display:none">
+              <div class="clinic-icon-large">🏥</div>
+              <div class="clinic-text-overlay">HEALTHY DENTI</div>
+            </div>
+            <div class="about-img-glow"></div>
+          </div>
+          <div class="about-metric metric-1">
+            <span class="metric-num">8</span>
+            <span class="metric-lbl">Especialidades</span>
+          </div>
+          <div class="about-metric metric-2">
+            <span class="metric-num">Lun–Dom</span>
+            <span class="metric-lbl">08:00–20:00</span>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <span class="section-label">💙 Nuestro Propósito</span>
+          <h2 class="section-title">Atención dental <span class="gradient-text">excepcional y personalizada</span></h2>
+          <p class="about-text">Nuestro propósito es crear sonrisas deslumbrantes y fomentar una salud bucal excepcional, con una combinación de <strong>atención personalizada, tecnología avanzada</strong> y un toque de calidez.</p>
+          <p class="about-text">Nuestro objetivo es ser tu destino confiable para una sonrisa más saludable y radiante. Únete a nosotros en este viaje hacia una sonrisa que refleje tu verdadera felicidad y confianza. <em>En Healthy Denti, tu sonrisa es nuestra pasión.</em></p>
+          <div class="about-values">
+            <div class="value-item">
+              <div class="value-icon">🎯</div>
+              <div>
+                <strong>Precisión</strong>
+                <p>Diagnósticos exactos con tecnología avanzada</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">💙</div>
+              <div>
+                <strong>Calidez</strong>
+                <p>Trato humano y personalizado en cada visita</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">🏆</div>
+              <div>
+                <strong>Excelencia</strong>
+                <p>Materiales premium y equipo especializado</p>
+              </div>
+            </div>
+          </div>
+          <a href="https://wa.link/42kr32" target="_blank" rel="noopener" class="btn-primary" id="about-cta">Contáctanos por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTADOS -->
+  <section class="section" id="resultados">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">📊 Resultados Reales</span>
+        <h2 class="section-title">Transformaciones que <span class="gradient-text">hablan por sí solas</span></h2>
+        <p class="section-subtitle">Miles de pacientes han recuperado la confianza en su sonrisa gracias a nuestros tratamientos de vanguardia.</p>
+      </div>
+      <div class="results-grid">
+        <div class="result-card glass-card reveal" id="result-1">
+          <div class="result-icon">✨</div>
+          <div class="result-stat"><span class="count" data-target="500" id="count-patients">0</span>+</div>
+          <div class="result-label">Pacientes satisfechos</div>
+        </div>
+        <div class="result-card glass-card reveal" id="result-2">
+          <div class="result-icon">🏥</div>
+          <div class="result-stat"><span class="count" data-target="8" id="count-services">0</span></div>
+          <div class="result-label">Especialidades</div>
+        </div>
+        <div class="result-card glass-card reveal" id="result-3">
+          <div class="result-icon">📅</div>
+          <div class="result-stat">7</div>
+          <div class="result-label">Atención 7 días a la semana</div>
+        </div>
+        <div class="result-card glass-card reveal" id="result-4">
+          <div class="result-icon">🏆</div>
+          <div class="result-stat"><span class="count" data-target="3" id="count-years">0</span>+</div>
+          <div class="result-label">Años de experiencia</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="section section-alt" id="testimonios">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">💬 Testimonios</span>
+        <h2 class="section-title">Lo que dicen nuestros <span class="gradient-text">pacientes</span></h2>
+        <p class="section-subtitle">Experiencias reales de quienes ya confían en HEALTHY DENTI para cuidar su sonrisa.</p>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card glass-card reveal" id="test-1">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="test-quote">"Llegué con mucho miedo al dentista y el equipo de HEALTHY DENTI me hizo sentir completamente segura. Mi tratamiento de ortodoncia cambió mi vida. ¡Ahora sonrío en todas las fotos!"</p>
+          <div class="test-author">
+            <div class="author-avatar" style="background:linear-gradient(135deg,#3B82F6,#1D4ED8)">MG</div>
+            <div><strong>María García</strong><span>Ortodoncia Invisalign</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal" id="test-2">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="test-quote">"Me realizaron 2 implantes y el proceso fue increíblemente cómodo. La tecnología que usan es impresionante y los resultados son naturales al 100%. ¡Totalmente recomendados!"</p>
+          <div class="test-author">
+            <div class="author-avatar" style="background:linear-gradient(135deg,#60A5FA,#3B82F6)">CR</div>
+            <div><strong>Carlos Rodríguez</strong><span>Implantes Dentales</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal" id="test-3">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="test-quote">"La endodoncia fue sin dolor y muy eficiente. El Dr. salvó mi diente cuando otro dentista me había dicho que habría que extraerlo. Profesionales extraordinarios."</p>
+          <div class="test-author">
+            <div class="author-avatar" style="background:linear-gradient(135deg,#93C5FD,#3B82F6)">AL</div>
+            <div><strong>Andrea López</strong><span>Endodoncia</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal" id="test-4">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="test-quote">"La armonización orofacial fue increíble. Resultados naturales y elegantes. El equipo de Healthy Denti es verdaderamente experto. ¡Me siento más segura que nunca!"</p>
+          <div class="test-author">
+            <div class="author-avatar" style="background:linear-gradient(135deg,#3B82F6,#60A5FA)">JP</div>
+            <div><strong>Jessica Paredes</strong><span>Armonización Orofacial</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal" id="test-5">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="test-quote">"Excelente atención en periodoncia. Mis encías estaban en muy mal estado y en pocas sesiones el cambio fue radical. El personal es amable, paciente y muy profesional."</p>
+          <div class="test-author">
+            <div class="author-avatar" style="background:linear-gradient(135deg,#1D4ED8,#3B82F6)">RT</div>
+            <div><strong>Ricardo Torres</strong><span>Periodoncia</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal" id="test-6">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="test-quote">"Vine por una rehabilitación oral completa y quedé fascinada con los resultados. La clínica es moderna, limpia y el equipo realmente te hace sentir en las mejores manos."</p>
+          <div class="test-author">
+            <div class="author-avatar" style="background:linear-gradient(135deg,#60A5FA,#93C5FD)">VM</div>
+            <div><strong>Valeria Morales</strong><span>Rehabilitación Oral</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal" id="test-7">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="test-quote">"Llevé a mi hijo de 8 años con mucho nerviosismo y quedé sorprendida de cómo lo atendieron. Fue una experiencia positiva y ahora mi hijo no le tiene miedo al dentista. ¡Gracias!"</p>
+          <div class="test-author">
+            <div class="author-avatar" style="background:linear-gradient(135deg,#3B82F6,#93C5FD)">LV</div>
+            <div><strong>Lucía Vega</strong><span>Operatorio Dental Infantil</span></div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPO -->
+  <section class="section" id="equipo">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">👨‍⚕️ Nuestro Equipo</span>
+        <h2 class="section-title">Especialistas comprometidos <span class="gradient-text">con tu salud bucal</span></h2>
+        <p class="section-subtitle">Un equipo multidisciplinario de profesionales certificados listos para cuidar tu sonrisa, disponibles todos los días.</p>
+      </div>
+      <div class="team-grid team-grid-centered">
+        <div class="team-card glass-card reveal" id="team-1">
+          <div class="team-avatar">
+            <div class="avatar-circle" style="background:linear-gradient(135deg,#3B82F6,#1D4ED8)">DG</div>
+            <div class="avatar-glow"></div>
+          </div>
+          <h3>Dr. MSc. Diego Gordón J.</h3>
+          <span class="team-role">Odontólogo Especialista</span>
+          <p>Profesional con Maestría en Salud Bucal, dedicado a brindar atención odontológica integral con tecnología de vanguardia y trato humano.</p>
+          <div class="team-social">
+            <a href="https://wa.link/42kr32" target="_blank" rel="noopener" class="btn-team-wa" aria-label="WhatsApp">Contáctame</a>
+          </div>
+        </div>
+        <div class="team-card glass-card reveal" id="team-2">
+          <div class="team-avatar">
+            <div class="avatar-circle" style="background:linear-gradient(135deg,#60A5FA,#3B82F6)">SJ</div>
+            <div class="avatar-glow"></div>
+          </div>
+          <h3>Dra. Esp. Sol Jativa N.</h3>
+          <span class="team-role">Especialista en Ortodoncia</span>
+          <p>Especialista certificada en ortodoncia, Invisalign y armonización orofacial. Transforma sonrisas con precisión y sensibilidad estética.</p>
+          <div class="team-social">
+            <a href="https://wa.link/42kr32" target="_blank" rel="noopener" class="btn-team-wa" aria-label="WhatsApp">Contáctame</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="section cta-section" id="cta-final">
+    <div class="cta-glow"></div>
+    <div class="container cta-inner reveal">
+      <span class="section-label">🦷 ¿Listo para Transformar tu Sonrisa?</span>
+      <h2 class="cta-title">Tu sonrisa perfecta comienza <span class="gradient-text">con una cita</span></h2>
+      <p class="cta-subtitle">Únete a los más de 500 pacientes que ya confían en nosotros. Primera consulta personalizada sin costo.</p>
+      <div class="cta-actions">
+        <a href="https://wa.link/42kr32" target="_blank" rel="noopener" class="btn-primary btn-large pulse-glow" id="cta-final-btn">Reservar Cita Gratis</a>
+        <a href="tel:+593983072998" class="btn-outline btn-large" id="cta-call-btn">📞 Llamar Ahora</a>
+      </div>
+      <p class="cta-note">✅ Atención todos los días &nbsp;•&nbsp; ✅ 08:00 – 20:00 &nbsp;•&nbsp; ✅ Múltiples especialistas</p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section-alt" id="contacto">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">📍 Contacto</span>
+        <h2 class="section-title">Estamos aquí para <span class="gradient-text">ayudarte</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item glass-card" id="contact-phone">
+            <div class="contact-icon">📱</div>
+            <div>
+              <strong>WhatsApp / Teléfono</strong>
+              <p><a href="https://wa.link/42kr32" target="_blank" rel="noopener" style="color:var(--primary-400);text-decoration:none;">+593 983 072 998</a></p>
+            </div>
+          </div>
+          <div class="contact-item glass-card" id="contact-email">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:healthy.denti27@outlook.com" style="color:var(--primary-400);text-decoration:none;">healthy.denti27@outlook.com</a></p>
+            </div>
+          </div>
+          <div class="contact-item glass-card" id="contact-address">
+            <div class="contact-icon">📍</div>
+            <div>
+              <strong>Dirección</strong>
+              <p><a href="https://maps.app.goo.gl/uggzRRbzCpHF4asQ8" target="_blank" rel="noopener" style="color:var(--primary-400);text-decoration:none;">Alemania y Eloy Alfaro, Edif. Solemni, Consultorio Nº 502</a></p>
+            </div>
+          </div>
+          <div class="contact-item glass-card" id="contact-hours">
+            <div class="contact-icon">🕐</div>
+            <div>
+              <strong>Horario de Atención</strong>
+              <p>Lun – Dom: 08:00 a 20:00</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form glass-card reveal" id="contact-form" onsubmit="handleFormSubmit(event)">
+          <h3>Solicitar Cita</h3>
+          <div class="form-group">
+            <label for="form-name">Nombre completo</label>
+            <input type="text" id="form-name" name="name" placeholder="Tu nombre" required />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="form-email">Email</label>
+              <input type="email" id="form-email" name="email" placeholder="tu@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="form-phone">Teléfono / WhatsApp</label>
+              <input type="tel" id="form-phone" name="phone" placeholder="+593 983 072 998" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="form-service">Servicio de interés</label>
+            <select id="form-service" name="service">
+              <option value="">Selecciona un servicio</option>
+              <option>Ortodoncia</option>
+              <option>Rehabilitación Oral</option>
+              <option>Implantes Dentales</option>
+              <option>Cirugías Dentales</option>
+              <option>Periodoncia</option>
+              <option>Operatorio Dental</option>
+              <option>Endodoncia</option>
+              <option>Armonización Orofacial</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="form-message">Mensaje (opcional)</label>
+            <textarea id="form-message" name="message" rows="3" placeholder="¿Algo que debamos saber?"></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-block" id="form-submit">Solicitar mi Cita ✨</button>
+          <div class="form-success" id="form-success" style="display:none">
+            ✅ ¡Cita solicitada con éxito! Te contactaremos muy pronto.
+          </div>
+          <div class="form-error" id="form-error" style="display:none">
+            ❌ Error al enviar. Por favor intenta de nuevo o escríbenos al WhatsApp.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <svg viewBox="0 0 32 34" fill="none" width="32" height="34">
+              <path d="M16 2C11 2 7 5.5 5.5 10C4 14.5 4 20 5.5 25C7 30 10 35 13.5 37.5C14.5 38.3 15 38.5 16 38.5C17 38.5 17.5 38.3 18.5 37.5C22 35 25 30 26.5 25C28 20 28 14.5 26.5 10C25 5.5 21 2 16 2Z" fill="#3B82F6" opacity="0.9"/>
+            </svg>
+            <span>HEALTHY <strong>DENTI</strong></span>
+          </div>
+          <p class="footer-tagline">Sonreír es la magia que hay en ti.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/profile.php?id=61558829807819&mibextid=ZbWKwL" target="_blank" rel="noopener" class="social-icon" id="footer-fb" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/healthydenti/" target="_blank" rel="noopener" class="social-icon" id="footer-ig" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="https://www.tiktok.com/@healthydenti" target="_blank" rel="noopener" class="social-icon" id="footer-tt" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+            </a>
+            <a href="https://wa.link/42kr32" target="_blank" rel="noopener" class="social-icon" id="footer-wa" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="mailto:healthy.denti27@outlook.com" class="social-icon" id="footer-email" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">Ortodoncia</a></li>
+            <li><a href="#servicios">Rehabilitación Oral</a></li>
+            <li><a href="#servicios">Implantes</a></li>
+            <li><a href="#servicios">Periodoncia</a></li>
+            <li><a href="#servicios">Endodoncia</a></li>
+            <li><a href="#servicios">Armonización Orofacial</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Clínica</h4>
+          <ul>
+            <li><a href="#nosotros">Nuestro Propósito</a></li>
+            <li><a href="#equipo">Nuestro Equipo</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#resultados">Resultados</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="https://wa.link/42kr32" target="_blank" rel="noopener">📱 +593 983 072 998</a></li>
+            <li><a href="mailto:healthy.denti27@outlook.com" style="white-space:nowrap;">✉️ healthy.denti27@outlook.com</a></li>
+            <li><a href="https://maps.app.goo.gl/uggzRRbzCpHF4asQ8" target="_blank" rel="noopener">📍 Edif. Solemni, C. Nº 502</a></li>
+            <li><a href="#contacto">🕐 Lun–Dom: 08:00–20:00</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 HEALTHY DENTI. Todos los derechos reservados.</p>
+        <div class="footer-legal">
+          <a href="privacidad.html" target="_blank" rel="noopener">Política de Privacidad</a>
+          <a href="terminos.html" target="_blank" rel="noopener">Términos de Uso</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
